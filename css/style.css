@@ -61,7 +61,6 @@ ul {
     font-family: var(--font-roboto);
     font-size: 16px;
     font-weight: 500;
-    /* fill: red;*/
     color:var(--blue-color);
     background-color: var(--white-color);
     border-style: solid;
@@ -77,6 +76,7 @@ ul {
     color: var(--white-color) ;
     background-color: var(--blue-color);
     transition: all 0.2s;
+    transform: scale(1.2);
 }
 
 .reversedBtn{
@@ -85,7 +85,6 @@ ul {
     font-family: var(--font-roboto);
     font-size: 16px;
     font-weight: 500;
-    /*fill: red;*/
     color:var(--white-color);
     background-color: var(--blue-color);
     border-style: solid;
@@ -101,12 +100,12 @@ ul {
     color: var(--blue-color) ;
     background-color: var(--white-color);
     transition: all 0.2s;
+    transform: scale(1.2);
 }
 
 /* HEADER */
 
 header {
-    padding: 0px 15px;
     display: flex;
     grid-template-columns: repeat(2, 30% 70%);
     align-items: center;
@@ -114,7 +113,6 @@ header {
 
 header img {
     display: block;
-    margin: 50% 0%;
     width: 200px;
     align-items: center;
 }
@@ -125,19 +123,29 @@ header ul {
     font-size: 16px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 40px;
-    padding: 50px 20px;
-    text-align: center;
+    text-align: center; 
 }
 
-/* + header>ul */
-
-header ul a:hover{
-    background-color: red;
+header ul li:hover a:nth-child(n) {
+    color:var(--white-color);
 }
 
 header ul a {
     text-align: center;
+    color: var(--black-color);
+}
+
+header ul li {
+    padding: 50px 50px;
+    justify-content: center;
+    transition: all 0.3s;
+    white-space: nowrap;
+}
+
+header ul li:nth-child(n):hover {
+    background-color: var(--blue-color);
+    padding: 50px 50px;
+    transition: all 0.5s;
 }
 
 /* MAIN */
