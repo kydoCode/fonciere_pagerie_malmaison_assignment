@@ -1,0 +1,120 @@
+/* Global */
+
+/* -- API calls */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+
+
+:root {
+    /* -- Fonts */
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-open-sant: 'Open Sans', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    /* -- Colors */
+    --black-color: #000;
+    --white-color:#fff;
+    --blue-color:#27697C;
+    --grey-color:#859399;
+}
+
+/* -- Components */
+
+h1 {
+    font-family: var(--font-montserrat);
+    font-size: 40px;
+    color:var(--blue-color);
+}
+
+h2 {
+    font-family: var(--font-montserrat);
+    font-size: 20px;
+    color:var(--blue-color);
+}
+
+h3 {
+    font-family: var(--font-montserrat);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    display: inline-block;
+    width: auto;
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    font-weight: 500;
+    /* fill: red;*/
+    color:var(--blue-color);
+    background-color: var(--white-color);
+    border-style: solid;
+    border-color:var(--white-color);
+    border-width: 1px;
+    border-radius: 0px;
+    text-align: center;
+    transition: all 0.2s;
+    padding: 12px 24px;
+}
+
+.btn:hover{
+    color: var(--white-color) ;
+    background-color: var(--blue-color);
+    transition: all 0.2s;
+}
+
+.reversedBtn{
+    display: inline-block;
+    width: auto;
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    font-weight: 500;
+    /*fill: red;*/
+    color:var(--white-color);
+    background-color: var(--blue-color);
+    border-style: solid;
+    border-color:var(--blue-color);
+    border-width: 1px;
+    border-radius: 0px;
+    text-align: center;
+    transition: all 0.2s;
+    padding: 12px 24px;
+}
+
+.reversedBtn:hover {
+    color: var(--blue-color) ;
+    background-color: var(--white-color);
+    transition: all 0.2s;
+}
+
+/* HEADER */
+
+header {
+    padding: 0px 15px;
+}
+
+/* MAIN */
+
+main {
+    padding: 0px 15px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 0px 15px;
+}
