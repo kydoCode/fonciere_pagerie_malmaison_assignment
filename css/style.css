@@ -30,7 +30,11 @@
 h1 {
     font-family: var(--font-montserrat);
     font-size: 40px;
-    color:var(--blue-color);
+    color:var(--white-color);
+    margin: auto;
+    text-transform: uppercase;
+    max-width: 665px;
+    font-weight: 700;
 }
 
 h2 {
@@ -52,6 +56,13 @@ a {
 ul {
     list-style-type: none;
 }
+
+/* p {
+    font-family: var(--font-montserrat);
+    font-size: 18px;
+    font-weight: 600;
+    /* color:var(--white-color); */
+/* } */
 
 /* -- Components */
 
@@ -106,6 +117,8 @@ ul {
 /* HEADER */
 
 header {
+    max-width: 1440px;
+    margin: auto;
     display: flex;
     grid-template-columns: repeat(2, 30% 70%);
     align-items: center;
@@ -151,13 +164,54 @@ header ul li:nth-child(n):hover {
 /* MAIN */
 
 main {
-    padding: 0px 15px;
+    padding: 0px 0px;
+    /* max-width: 1440px; */
+}
+
+main #section-one {
+    opacity: 1.0;
+    display: flex;
+    /*max-width: 1440px; */
+    min-height: 700px;
+    height: auto;
+    /* width: 1200px; */
+    background-image: url("/03_LP_ALC_Projects/05/14_Fonciere_Pagerie_Malmaison_05022024/images/image_007.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+}
+
+main #section-one>article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--blue-color);
+    opacity: 0.8;
+    padding: 50px 15px;
+    justify-content: space-between;
+    gap: 40px;
+    margin: auto;
+    width: 600px;
+}
+
+main #section-one>article>p{
+    font-family: var(--font-montserrat);
+    color:var(--white-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+main #section-one>article>a {
+    margin:auto;
 }
 
 /* FOOTER */
 
 footer {
-    /* width: 1440px;*/
+    /* max-width: 1440px;*/
+    margin: auto;
     padding: 0px 15px;
     text-align: center;
     background-color: var(--blue-color);
