@@ -219,12 +219,9 @@ main #section-one>article>a {
 /* --Section Two --*/
 
 main #section-two hr{
-    width: 50px;
-    height:1px;
-    /* border-width:2; */
-    color:var(--hr-color);
-    /* background-color:var(--hr-color);*/
-    padding: 15px 0px;
+    margin: 0;
+    border: none;
+    border-top: 1px solid black;
 }
 
 main #section-two {
@@ -280,7 +277,7 @@ main #section-two article h2 {
 main #section-three {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: auto;
+    margin: 50px auto;
     max-width: 100%;
     text-align: center;
     gap: 20px;
@@ -295,6 +292,12 @@ main #section-three article {
 main #section-three>article>p{
     gap:10px;
     padding: 10px;
+}
+
+main #section-three article i {
+    font-weight: 900;
+    font-size: 50px;
+    color:var(--blue-color);
 }
 
 /* --Section Four-- */
