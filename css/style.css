@@ -427,6 +427,59 @@ main #section-five div.scrollmenu {
     white-space: nowrap;
   }
 
+/* SECTION SIX */
+
+main #section-six {
+    background-color: var(--grey-color);
+}
+
+main #section-six h2, main #section-six h3 {
+    display: flex;
+    text-align: left;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    color:var(--white-color);
+}
+
+#contactForm {
+    max-width: 680px;
+    margin: auto;
+    padding: auto 80px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]{
+    width: 100%;
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover .btn:hover {
+    padding: 10px 0px;
+  }
+  
+  /* main #section-six article {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } */
+
 /* FOOTER */
 
 footer {
