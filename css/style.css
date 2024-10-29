@@ -180,7 +180,7 @@ main #section-one {
     min-height: 700px;
     height: auto;
     /* width: 1200px; */
-    background-image: url("/03_LP_ALC_Projects/05/14_Fonciere_Pagerie_Malmaison_05022024/images/image_007.jpg");
+    background-image: url("../images/image_007.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
